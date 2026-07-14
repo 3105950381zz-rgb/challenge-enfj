@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>挽回 ENFJ 挑战</title>
+<script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:PingFang SC,Microsoft YaHei,sans-serif;background:#faf6ef;color:#14110f;min-height:100vh;padding-bottom:30px}
+.pg{position:fixed;inset:0;z-index:-1;background:#faf6ef;background-image:radial-gradient(circle at 20% 12%,rgba(255,207,111,0.25),transparent 26rem),radial-gradient(circle at 82% 4%,rgba(255,180,50,0.15),transparent 22rem)}
+.ap{width:min(100%,520px);min-height:100vh;margin:0 auto;padding:12px 16px;position:relative}
+.tb{display:flex;justify-content:space-between;font-size:11px;color:#9a8a78;padding:4px 0 8px}
+.tb span{background:rgba(255,255,255,.8);border:1px solid rgba(20,17,15,.1);border-radius:999px;padding:4px 10px}
+.he{background:linear-gradient(145deg,#fffcf7,#fdf3e0);border:1px solid rgba(20,17,15,.12);border-radius:12px;min-height:170px;margin:8px 0 14px;position:relative;overflow:hidden;box-shadow:0 18px 42px rgba(63,35,18,.08)}
+.hi{position:absolute;inset:14px;border:1px dashed rgba(20,17,15,.15);border-radius:8px;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:16px}
+.h2{font-size:44px;margin-bottom:6px}.h3{font-size:19px;font-weight:700;color:#c27a1a;text-align:center}
+.h4{font-size:12px;color:#6a5a48;margin-top:4px;text-align:center;line-height:1.6;padding:0 8px}
+.h5{font-size:11px;color:#9a8a78;margin-top:6px;text-align:center;line-height:1.6;padding:0 8px}
+.h6{display:flex;gap:14px;margin-top:8px;font-size:11px;color:#9a8a78}
+.h6 span{padding:2px 10px;background:rgba(255,255,255,.6);border-radius:20px}
+.ca{background:#fffcf7;border:1px solid rgba(20,17,15,.08);border-radius:12px;padding:18px;margin-bottom:10px;box-shadow:0 4px 16px rgba(63,35,18,.04)}
+.la{display:flex;justify-content:space-between;margin-bottom:8px}
+.lb2{background:#ffcf6f20;color:#c27a1a;font-size:11px;font-weight:700;padding:3px 10px;border-radius:6px}
+.ld2{font-size:11px;color:#c0392b}
+.ls2{font-size:14px;color:#6a5a48;line-height:1.7;margin-bottom:12px;padding:10px 12px;background:rgba(255,207,111,.06);border-radius:8px;border-left:3px solid #ffcf6f}
+.ll2{font-size:15px;font-weight:600;margin-bottom:14px;padding:10px;background:#faf6ef;border-radius:8px;text-align:center}
+.op{display:flex;flex-direction:column;gap:7px}
+.bt{width:100%;padding:12px;border:1px solid rgba(20,17,15,.08);border-radius:8px;background:#fffcf7;font-size:13px;color:#14110f;cursor:pointer;text-align:left;transition:all .15s;line-height:1.4}
+.bt:active{transform:scale(.97);border-color:#f4a261}
+.bt .il2{display:inline-flex;align-items:center;justify-content:center;width:20px;height:20px;border-radius:50%;color:#fff;font-size:10px;font-weight:700;margin-right:8px}
+.bt .b1{background:#f4a261}.bt .b2{background:#e07a5f}.bt .b3{background:#d4af37}.bt .b4{background:#8ecae6}
+.re2{font-size:52px;text-align:center;margin-bottom:4px}.rt2{font-size:20px;font-weight:800;color:#c27a1a;text-align:center}
+.rs{font-size:12px;color:#6a5a48;text-align:center;margin-top:3px}
+.rb2{display:inline-block;padding:4px 14px;border-radius:20px;font-size:12px;font-weight:700;margin:8px auto;text-align:center}
+.rd2{font-size:13px;color:#555;line-height:1.8;padding:14px;background:rgba(255,207,111,.06);border-radius:12px;margin-bottom:10px}
+.sb2{height:5px;border-radius:3px;background:rgba(20,17,15,.06);overflow:hidden;margin:6px 0}
+.sf2{height:100%;border-radius:3px;transition:width .8s}
+.ac2{display:flex;flex-direction:column;gap:8px;margin-top:10px}
+.ac2 button{width:100%;padding:13px;border-radius:10px;border:none;font-size:14px;font-weight:600;cursor:pointer;transition:all .15s}
+.ac2 button:active{transform:scale(.97)}
+.bp2{background:linear-gradient(135deg,#f4a261,#e07a5f);color:#fff;box-shadow:0 4px 14px rgba(224,122,95,.2)}
+.bss{background:transparent;color:#9a8a78;border:1px solid rgba(20,17,15,.08)}
+.br2{display:flex;align-items:center;gap:14px;padding:14px;margin-top:6px;border-radius:12px;background:rgba(255,255,255,.6);border:1px solid rgba(20,17,15,.08)}
+.br2 img{width:120px;height:auto;border-radius:8px;flex-shrink:0;border:2px solid rgba(20,17,15,.12)}
+.br2 .bn2{font-size:13px;font-weight:700;color:#14110f}
+.br2 .bs3{font-size:11px;color:#9a8a78;margin-top:1px}
+.ft2{font-size:10px;color:#c0b0a0;text-align:center;margin-top:14px;line-height:1.6}
+</style>
+</head><body>
+<div class="pg"></div>
+<div class="ap" id="ap"></div>
+<script>
+var D={e:"🦁",t:"挽回 ENFJ 挑战",s:"你能挽回那个一直温暖你但却把自己耗尽的人吗？",i:"ENFJ曾经很亮，但热情不是无限电池。被困住被敷衍被降温，都会让TA突然转身。",n:"温暖撤退",pr:"0.6%",ad:"第3关",gb:332108};
+var S=[{"t":"关心变客套","s":"以前ENFJ总是主动关心你的一切，现在TA还是会在意你，但方式变得像朋友一样客气。","l":"那你照顾好自己。","d":28},{"t":"不再主动安排","s":"ENFJ是天然的策划者。当TA不再主动规划约会和见面，说明TA的热情在消退。","l":"你想去哪你来定吧。","d":45},{"t":"倾听变少","s":"ENFJ是最好的倾听者，但现在TA听你说话时开始走神，不再追问细节。","l":"嗯，然后呢？","d":55},{"t":"你忽略了TA","s":"ENFJ一直默默照顾你的感受，但你很久没问过TA开不开心了。TA不说，但TA记得。","l":"我没事啊，你先管好你自己。","d":62},{"t":"你的承诺没兑现","s":"ENFJ很看重承诺。你说过的事没做到，TA表面说没关系，但其实已经在重新审视这段关系。","l":"没事，你忙你的。","d":68},{"t":"TA开始挑剔自己","s":"ENFJ习惯内疚。关系出问题时TA会先反省是不是自己不够好。你越沉默TA越自责。","l":"可能真的是我太敏感了。","d":73},{"t":"朋友比你更懂TA","s":"ENFJ有心事不再先告诉你，而是去找朋友倾诉。你从别人口中听说TA最近的烦恼。","l":"没什么，跟朋友聊过了已经。","d":78},{"t":"你否定TA的付出","s":"ENFJ为你做了很多，但你习惯了。当TA问你我做得好吗，你敷衍回应。","l":"还行吧。","d":82},{"t":"TA不再说服你了","s":"以前你们有分歧时ENFJ会耐心沟通。现在TA不再试图让你理解，只是沉默。","l":"你这样想也行。","d":86},{"t":"你从不主动","s":"ENFJ发现永远是自己主动找你、关心你、维持这段关系，TA累了。","l":"你找我是有什么事吗？","d":90},{"t":"停止付出","s":"ENFJ不再为你做那些小事——不再给你带早餐、不再提醒你天气、不再问你吃饭没。","l":"好。","d":94},{"t":"最后的对望","s":"ENFJ用最后一点力气看着你。TA不想教会你珍惜，TA只想知道你到底有没有心。","l":"你知道我想要什么吗？","d":98}];
+var O=[[{"x":"a","t":"说你现在怎么这么客气","s":"f"},{"x":"b","t":"谢谢你的关心，我也在关心你","s":"s"},{"x":"c","t":"觉得TA在疏远自己","s":"f"},{"x":"d","t":"主动关心TA最近怎么样","s":"s"}],[{"x":"a","t":"说那你来安排啊","s":"f"},{"x":"b","t":"你最近是不是很累我来安排一次","s":"s"},{"x":"c","t":"感觉TA不在乎了","s":"f"},{"x":"d","t":"说我们一起决定去哪吧","s":"s"}],[{"x":"a","t":"说你都不认真听我说话","s":"f"},{"x":"b","t":"你是不是有心事想聊聊吗","s":"s"},{"x":"c","t":"算了不说了","s":"f"},{"x":"d","t":"停下来问TA你最近还好吗","s":"s"}],[{"x":"a","t":"你怎么会这么想","s":"f"},{"x":"b","t":"对不起最近是不是忽略你了","s":"s"},{"x":"c","t":"你不说我怎么知道","s":"f"},{"x":"d","t":"你对我来说很重要","s":"s"}],[{"x":"a","t":"说我真的很忙","s":"f"},{"x":"b","t":"对不起这个是我没做到我补上","s":"s"},{"x":"c","t":"说下次一定","s":"f"},{"x":"d","t":"认真跟TA解释并表达歉意","s":"s"}],[{"x":"a","t":"说你确实有点敏感","s":"f"},{"x":"b","t":"不是你不好是我最近忽略了","s":"s"},{"x":"c","t":"说没事你不要乱想","s":"f"},{"x":"d","t":"告诉TA你很好是我需要做得更好","s":"s"}],[{"x":"a","t":"你有事怎么不跟我说","s":"f"},{"x":"b","t":"想想TA为什么不先告诉我","s":"s"},{"x":"c","t":"生气TA不跟你说","s":"f"},{"x":"d","t":"主动问TA要不要聊聊","s":"s"}],[{"x":"a","t":"说不然呢还要怎样","s":"f"},{"x":"b","t":"认真告诉TA你做得很好我很感激","s":"s"},{"x":"c","t":"觉得TA在求夸奖","s":"f"},{"x":"d","t":"用行动回报TA的付出","s":"s"}],[{"x":"a","t":"说你这是什么态度","s":"f"},{"x":"b","t":"不这样我们好好聊聊","s":"s"},{"x":"c","t":"也冷战不说话","s":"f"},{"x":"d","t":"主动说出自己的想法并问TA的想法","s":"s"}],[{"x":"a","t":"说你不主动我也没办法","s":"f"},{"x":"b","t":"对不起我没意识到以后我也主动","s":"s"},{"x":"c","t":"关系是两个人的你不能只怪我","s":"f"},{"x":"d","t":"从现在开始主动关心TA","s":"s"}],[{"x":"a","t":"说你变了","s":"f"},{"x":"b","t":"谢谢你的每一件小事我都记得","s":"s"},{"x":"c","t":"感觉无所谓","s":"f"},{"x":"d","t":"主动为TA做一件贴心的事","s":"s"}],[{"x":"a","t":"希望我怎么做你直接说","s":"f"},{"x":"b","t":"你想要我的在意和珍惜","s":"s"},{"x":"c","t":"不知道你也不说","s":"f"},{"x":"d","t":"你想要被看见被放在心上","s":"s"}]];
+var R=[{e:"🎯",ti:"完美通关",su:"万里挑一",ta:"🌟天选之人",mi:9,c:"#f4a261",de:"你完全读懂了ENFJ。你知道什么时候该靠近什么时候该给空间。不是因为你多会说话而是因为你真的看见了TA。"},{e:"😊",ti:"表现不错",su:"超过大多数人",ta:"✅高分通关",mi:6,c:"#8ecae6",de:"你本能地做出了很多正确选择。虽然偶尔踩雷但你懂ENFJ最在意的——被看见被理解。"},{e:"😅",ti:"有点危险",su:"和大部分人一样",ta:"⚠️止步中段",mi:3,c:"#f39c12",de:"一些关键选择踩了ENFJ的雷。他们最怕被敷衍被冷落。需学会在TA沉默时不要逼问。"},{e:"💔",ti:"挑战失败",su:"ENFJ已经转身",ta:"❌再努力",mi:0,c:"#e74c3c",de:"ENFJ的热情熄灭了。TA需要的是一个发光时不遮挡暗淡时不离开的人。"}];
+var cu=0,s1=0,s2=0,f2=0;
+var A=document.getElementById("ap");
+function hm(){A.innerHTML="<div class=\"tb\"><span>挽回挑战</span><span>"+D.n+"</span></div><div class=\"he\"><div class=\"hi\"><div class=\"h2\">"+D.e+"</div><div class=\"h3\">"+D.t+"</div><div class=\"h4\">"+D.s+"</div><div class=\"h5\">"+D.i+"</div><div class=\"h6\"><span>🔥"+D.pr+"通关</span><span>💀平均"+D.ad+"</span></div></div></div><button class=\"bt\" onclick=\"go()\" style=\"text-align:center;padding:14px;font-weight:700;border-color:#f4a261\"><span class=\"il2 b1\">▶</span>开始挑战</button><div style=\"margin-top:12px\">"+br()+"</div><div class=\"ft2\">共"+S.length+"关·每关4个选择</div>";}
+function go(){cu=0;s1=0;s2=0;f2=0;A.innerHTML=lv();}
+function lv(){if(cu>=S.length)return re();var s=S[cu],o=O[cu]||[],bs=["b1","b2","b3","b4"];return "<div class=\"tb\"><span>挽回ENFJ·第"+(cu+1)+"/"+S.length+"关</span><span>💀失败率"+s.d+"%</span></div><div class=\"ca\"><div class=\"la\"><span class=\"lb2\">⚠️关卡"+(cu+1)+"："+s.t+"</span><span class=\"ld2\">💀"+s.d+"%止步</span></div><div class=\"ls2\">"+s.s+"</div><div class=\"ll2\">\""+s.l+"\"</div><div class=\"op\">"+o.map(function(p,i){return "<button class=\"bt\" onclick=\"pk("+i+")\"><span class=\"il2 "+bs[i]+"\">"+"ABCD"[i]+"</span>"+p.t+"</button>";}).join("")+"</div></div>";}
+function pk(i){var o=O[cu][i];if(o.s==="s"){s1+=3;s2++}else{s1+=1;f2++}cu++;A.innerHTML=cu>=S.length?re():lv();}
+function re(){var r=R.find(function(x){return s2>=x.mi;})||R[R.length-1];return "<div class=\"tb\"><span>挑战完成</span><span>得分"+s1+"</span></div><div class=\"ca\" style=\"text-align:center\"><div class=\"re2\">"+r.e+"</div><div class=\"rt2\">"+r.ti+"</div><div class=\"rs\">"+r.su+"</div><div class=\"rb2\" style=\"background:"+r.c+"20;color:"+r.c+"\">"+r.ta+"</div></div><div class=\"ca\"><div class=\"rd2\">"+r.de+"</div><div style=\"font-size:12px;color:#9a8a78;margin-bottom:4px\">安全选择比例</div><div class=\"sb2\"><div class=\"sf2\" style=\"width:"+(s2/S.length*100)+"%;background:"+r.c+"\"></div></div><div style=\"display:flex;justify-content:space-between;font-size:11px;color:#9a8a78;margin-top:10px\"><span>🌍"+(D.gb/10000).toFixed(1)+"万人挑战</span><span>"+s2+"✅"+f2+"💀</span></div></div><div class=\"ac2\"><button class=\"bp2\" onclick=\"cap()\">📸截图发朋友圈</button><button class=\"bss\" onclick=\"hm()\">🔄重新挑战</button></div>"+br()+"<div class=\"ft2\">仅供娱乐·不构成人格建议<br>想自己搭这种测试？扫码找灵客星球</div>";}
+function br(){return "<div class=\"br2\"><img src=\"qrcode.jpg\"/><div><div class=\"bn2\">灵客星球</div><div class=\"bs3\">想自己搭这种测试？扫码聊聊</div></div></div>";}
+function cap(){if(typeof html2canvas==="undefined"){var b=document.querySelector(".bp2");if(b){b.textContent="📱请手动截图保存";b.style.background="#2ecc71";}return}try{html2canvas(document.querySelector(".ap"),{backgroundColor:"#faf6ef",scale:2,useCORS:true,logging:false}).then(function(c){var l=document.createElement("a");l.download="ENFJ挑战结果.png";l.href=c.toDataURL("image/png");l.click();var b=document.querySelector(".bp2");if(b){b.textContent="✅图片已生成快去发朋友圈吧！";b.style.background="#2ecc71";}})}catch(e){}}
+hm();
+</script>
+</body>
+</html>
